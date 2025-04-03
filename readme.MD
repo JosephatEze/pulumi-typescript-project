@@ -21,3 +21,17 @@ To see the value of all secrets
 pulumi stack output --show-secrets
 
 
+
+/**
+ * Creates an RDS PostgreSQL database cluster with optional read replica
+ * @param {RdsConfig} config - Configuration object for the RDS instance
+ * @returns {Object} An object containing all created resources and their properties
+ * @property {pulumi.Output<string>} clusterEndpoint - The cluster endpoint
+ * @property {pulumi.Output<string>} clusterReaderEndpoint - The reader endpoint for the cluster
+ * @property {pulumi.Output<string>} dbNameOutput - The name of the database
+ * @property {pulumi.Output<string>} dbUsername - The master username
+ * @property {pulumi.Output<string>} dbPasswordSecret - The master password (secret)
+ * @property {pulumi.Output<string>} vpcId - The VPC ID
+ * @property {pulumi.Output<boolean>} created - Whether resources were created
+ * @property {pulumi.Output<string>} region - The AWS region
+ */
