@@ -6,3 +6,13 @@ config:
   cs-automations:dbName: myname_dev
   cs-automations:dbPassword:
     secure: v1:cBnWLsl27d1lFD9a:U2RmC5n0xfOiBqFG0gldCAwSLOYMUmsK1svKTeyOBQ==
+  cs-automations:createRdsPostgres: true
+  cs-automations:rdsResourceName: "my-app-db"
+  cs-automations:rdsDbName: "appdatabase"
+  cs-automations:rdsDbEngineVersion: "16.6"
+  cs-automations:rdsMinCapacity: "0.5"
+  cs-automations:rdsMaxCapacity: "4.0"
+  #cs-automations:privateSubnet1Cidr: "172.31.100.0/24"
+  #cs-automations:privateSubnet2Cidr: "172.31.101.0/24"
+  #cs-automations:availabilityZone1: "us-west-2a"
+  #cs-automations:availabilityZone2: "us-west-2b"

@@ -1,4 +1,4 @@
-name: automations
+name: cs-automations
 description: pulumi test projects
 runtime:
   name: nodejs
