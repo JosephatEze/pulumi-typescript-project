@@ -1,0 +1,8 @@
+encryptionsalt: v1:XjtQGystNF4=:v1:htRzGLJTVTlvib9s:knvYCvQRubgAIrsam35NtCFBkyU+AQ==
+config:
+  aws:region: us-west-2 #eu-west-2
+  cs-automations:env: dev
+  cs-automations:resourceName: myname-dev
+  cs-automations:dbName: myname_dev
+  cs-automations:dbPassword:
+    secure: v1:cBnWLsl27d1lFD9a:U2RmC5n0xfOiBqFG0gldCAwSLOYMUmsK1svKTeyOBQ==

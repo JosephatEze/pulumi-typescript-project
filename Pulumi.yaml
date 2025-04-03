@@ -1,0 +1,12 @@
+name: automations
+description: pulumi test projects
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: typescript
+#backend:
+ # url: s3://cs-pulumi-state/rdsPostgressDb          #${pulumi.getStack()}
